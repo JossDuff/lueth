@@ -1,0 +1,19 @@
+# Comma separated origin domain URLs for CORS validation (default: none)
+# Setting --rpc-http-cors-origins to "all" or "*" allows cross-origin resource sharing (CORS) access from any domain.
+rpc-http-cors-origins = ["all"]
+# Setting --host-allowlist to "*" allows JSON-RPC API access from any host.
+host-allowlist = ["*"]
+rpc-ws-enabled = true
+rpc-http-enabled = true
+
+# Disable all p2p networking.  Don't attempt to discover or connect with other nodes running this chain id.
+# This node is the sole source of truth for the lu-eth network
+discovery-enabled = false
+p2p-enabled = false
+
+
+# Allow zero gas price transactions
+min-gas-price = 0
+data-path = "data"
+node-private-key-file = "private_key"
+genesis-file = "genesis.json"
