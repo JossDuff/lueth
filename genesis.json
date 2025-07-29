@@ -32,6 +32,15 @@
 	"alloc": {
 		"0xE8132dd5Ea425679E350cB9906Fe48337CB0E899": {
 			"balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+		},
+		"0x78E60e922A7d8aB70d9f73065D528D4C06eAAec9": {
+			"balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+		},
+		"0xCc1dA086a8a4132ea3D5EA68f409419afe6d9A0b": {
+			"balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+		},
+		"0x703F25095E10e60247Ed1143c74430fe333A06a1": {
+			"balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
 		}
 	}
 }
