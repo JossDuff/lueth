@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  besu:
+    image: hyperledger/besu:latest
+    volumes:
+      - besu-data:/opt/besu/data
+      - besu-config:/etc/besu
+    ports:
+      - "8545:8545"
+      - "30303:30303"
+volumes:
+  besu-data:
+  besu-config:
