@@ -13,7 +13,7 @@ p2p-enabled = false
 
 
 # Allow zero gas price transactions
+genesis-file = "/etc/besu/genesis.json"
 min-gas-price = 0
-data-path = "data"
-node-private-key-file = "private_key"
-genesis-file = "genesis.json"
+data-path = "/opt/besu/data"
+node-private-key-file = "/etc/besu/private_key"

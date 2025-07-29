@@ -1,6 +1,20 @@
 {
 	"config": {
 		"chainId": 134164,
+		"homesteadBlock": 0,
+		"daoForkBlock": 0,
+		"eip150Block": 0,
+		"eip158Block": 0,
+		"byzantiumBlock": 0,
+		"petersburgBlock": 0,
+		"istanbulBlock": 0,
+		"muirGlacierBlock": 0,
+		"berlinBlock": 0,
+		"londonBlock": 0,
+		"arrowGlacierBlock": 0,
+		"grayGlacierBlock": 0,
+		"shanghaiBlock": 0,
+		"cancunBlock": 0,
 		"pragueBlock": 0,
 		"clique": {
 			"blockperiodseconds": 12,
@@ -9,10 +23,10 @@
 		}
 	},
 	"nonce": "0x0000000000000000",
-	"timestamp": "0x68883776",
+	"timestamp": "0x6888c3d2",
 	"extraData": "0x0000000000000000000000000000000000000000000000000000000000000000e8132dd5ea425679e350cb9906fe48337cb0e8990000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
 	"gasLimit": "0x1fffffffffffff",
-	"difficulty": "0",
+	"difficulty": "0x1",
 	"mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
 	"coinbase": "0x0000000000000000000000000000000000000000",
 	"alloc": {

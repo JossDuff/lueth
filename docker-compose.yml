@@ -4,10 +4,12 @@ services:
     image: hyperledger/besu:latest
     volumes:
       - besu-data:/opt/besu/data
-      - besu-config:/etc/besu
+      - ./config.toml:/etc/besu/config.toml
+      - ./genesis.json:/etc/besu/genesis.json
+      - ./private_key:/etc/besu/private_key
+    command: ["--config-file=/etc/besu/config.toml"]
     ports:
       - "8545:8545"
-      - "30303:30303"
+      - "8546:8546"
 volumes:
   besu-data:
-  besu-config:
