@@ -1,5 +1,6 @@
 services:
   besu:
+    container_name: lueth-besu
     image: hyperledger/besu:latest
     volumes:
       - besu-data:/opt/besu/data

@@ -5,15 +5,24 @@ rpc-http-cors-origins = ["all"]
 host-allowlist = ["*"]
 rpc-ws-enabled = true
 rpc-http-enabled = true
+rpc-http-host="0.0.0.0"
+rpc-ws-host="0.0.0.0"
+rpc-http-api=["ETH","NET","WEB3","TRACE","TXPOOL", "DEBUG"]
+rpc-ws-api=["ETH","NET","WEB3","TRACE","TXPOOL", "DEBUG"]
+revert-reason-enabled=true
+
+# allow historic queries of any block number
+data-storage-format="FOREST"
 
 # Disable all p2p networking.  Don't attempt to discover or connect with other nodes running this chain id.
 # This node is the sole source of truth for the lu-eth network
 discovery-enabled = false
 p2p-enabled = false
 
-
 # Allow zero gas price transactions
-genesis-file = "/etc/besu/genesis.json"
 min-gas-price = 0
+
+# Locations of critical files inside the docker image
+genesis-file = "/etc/besu/genesis.json"
 data-path = "/opt/besu/data"
 node-private-key-file = "/etc/besu/private_key"
